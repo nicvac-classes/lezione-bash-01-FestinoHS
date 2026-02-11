@@ -1,0 +1,316 @@
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ ./setup.sh
+🔧 Creazione ambiente di esercitazione...
+
+✅ Ambiente creato con successo!
+
+Struttura creata:
+esercizi
+├── documenti
+│   ├── lettere
+│   │   ├── lettera1.txt
+│   │   └── lettera2.txt
+│   └── report
+│       ├── 2023
+│       │   ├── vendite_q1.txt
+│       │   └── vendite_q2.txt
+│       └── 2024
+│           └── vendite_q1.txt
+├── immagini
+│   ├── lavoro
+│   └── vacanze
+├── permessi
+│   ├── eseguibile.sh
+│   ├── non_eseguibile.sh
+│   ├── privato.txt
+│   ├── pubblico.txt
+│   └── segreto.txt
+└── progetti
+    ├── script
+    │   ├── backup.sh
+    │   └── pulizia.sh
+    └── webapp
+        ├── docs
+        │   └── README.md
+        └── src
+            └── index.js
+
+15 directories, 14 files
+
+✅ Ambiente pronto!
+
+Puoi iniziare gli esercizi!
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ ls
+README.md  esercizi  sandbox  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd esercizi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd documenti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/documenti (main) $ cd report
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/documenti/report (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi/documenti/report
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/documenti/report (main) $ cd 2024
+@FestinoHS ➜ .../esercizi/documenti/report/2024 (main) $ ls
+vendite_q1.txt
+@FestinoHS ➜ .../esercizi/documenti/report/2024 (main) $ cd esercizi/progetti/webapp/src
+bash: cd: esercizi/progetti/webapp/src: No such file or directory
+@FestinoHS ➜ .../esercizi/documenti/report/2024 (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi/documenti/report/2024
+@FestinoHS ➜ .../esercizi/documenti/report/2024 (main) $ cd ../../..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd esercizi/documenti/lettere/
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/documenti/lettere (main) $ cd ../../..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd esercizi/immagini/vacanze/
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi/immagini/vacanze
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ cd ~
+@FestinoHS ➜ ~ $ pwd
+/home/codespace
+@FestinoHS ➜ ~ $ cd -
+/workspaces/lezione-bash-01-FestinoHS/esercizi/immagini/vacanze
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi/immagini/vacanze
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ cd sandbox
+bash: cd: sandbox: No such file or directory
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ ls
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi/immagini/vacanze
+@FestinoHS ➜ .../lezione-bash-01-FestinoHS/esercizi/immagini/vacanze (main) $ cd ../../..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ ls
+README.md  esercizi  sandbox  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd sandbox/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ cd test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ mkdir alfa beta gamma
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ ls
+alfa  beta  gamma
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir livello1/livello2/livello3
+mkdir: cannot create directory ‘livello1/livello2/livello3’: No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir -p livello1/livello2/livello3
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+livello1  test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ cd livello1
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/livello1 (main) $ ls
+livello2
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/livello1 (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ tree livello1
+livello1
+└── livello2
+    └── livello3
+
+3 directories, 0 files
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+livello1  test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir -p archivi/{2022,2023,2024}/{entrate,uscite}
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ tree archivi/
+archivi/
+├── 2022
+│   ├── entrate
+│   └── uscite
+├── 2023
+│   ├── entrate
+│   └── uscite
+└── 2024
+    ├── entrate
+    └── uscite
+
+10 directories, 0 files
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ cd test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ rmdir alfa
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ ls
+beta  gamma
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ rmdir livello1
+rmdir: failed to remove 'livello1': No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ rm -r livello1
+rm: cannot remove 'livello1': No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ ls
+beta  gamma
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox/test (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+archivi  livello1  test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ rm -r livello1/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+archivi  test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ rm -r archivi/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ rm test/
+rm: cannot remove 'test/': Is a directory
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ rm -r test
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ cd ..
+\@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ \ls
+README.md  esercizi  sandbox  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd esercizi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls -l
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb  8 15:38 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd ~
+@FestinoHS ➜ ~ $ ls 
+java  nvm
+@FestinoHS ➜ ~ $ ls -a
+.   .bash_logout  .cache  .config  .dotnet     .hugo     .local  .minikube  .oh-my-zsh  .profile  .rbenv  .rvmrc          .zprofile  java
+..  .bashrc       .conda  .docker  .gitconfig  .jupyter  .maven  .nvs       .php        .python   .ruby   .vscode-remote  .zshrc     nvm
+@FestinoHS ➜ ~ $ pwd
+/home/codespace
+@FestinoHS ➜ ~ $ ls ../esercizi/permessi
+ls: cannot access '../esercizi/permessi': No such file or directory
+@FestinoHS ➜ ~ $ ls /workspace/lezione-bash-01-FestinoHS/esercizi/permessi
+ls: cannot access '/workspace/lezione-bash-01-FestinoHS/esercizi/permessi': No such file or directory
+@FestinoHS ➜ ~ $ ls -l /workspaces/Lezione-Bash-01-FestinoHS/esercizi/permessi
+ls: cannot access '/workspaces/Lezione-Bash-01-FestinoHS/esercizi/permessi': No such file or directory
+@FestinoHS ➜ ~ $ /workspaces/lezione-bash-01-FestinoHS/eservizi/permessi
+bash: /workspaces/lezione-bash-01-FestinoHS/eservizi/permessi: No such file or directory
+@FestinoHS ➜ ~ $ cd -
+/workspaces/lezione-bash-01-FestinoHS/esercizi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/esercizi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd ~
+@FestinoHS ➜ ~ $ ls -l /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  8 15:38 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  8 15:38 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  8 15:38 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  8 15:38 pubblico.txt
+---------- 1 codespace codespace 48 Feb  8 15:38 segreto.txt
+@FestinoHS ➜ ~ $ ls -l
+total 0
+lrwxrwxrwx 1 root root 33 Nov 27 10:50 java -> /usr/local/sdkman/candidates/java
+lrwxrwxrwx 1 root root 20 Nov 27 10:50 nvm -> /usr/local/share/nvm
+@FestinoHS ➜ ~ $ pwd
+/home/codespace
+@FestinoHS ➜ ~ $ cd /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ls -l
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  8 15:38 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  8 15:38 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  8 15:38 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  8 15:38 pubblico.txt
+---------- 1 codespace codespace 48 Feb  8 15:38 segreto.txt
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls -l
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb  8 15:38 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd permessi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cat segreto.txt 
+cat: segreto.txt: Permission denied
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ chmod +r segreto.txt 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cat segreto.txt 
+File segreto - solo lettura per il proprietario
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ chmod u+r segreto.txt 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cat segreto.txt 
+File segreto - solo lettura per il proprietario
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ chmod u-x non_eseguibile.sh 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ls
+eseguibile.sh  non_eseguibile.sh  privato.txt  pubblico.txt  segreto.txt
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ./non_eseguibile.sh
+bash: ./non_eseguibile.sh: Permission denied
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ls -l
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  8 15:38 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  8 15:38 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  8 15:38 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  8 15:38 pubblico.txt
+-r--r--r-- 1 codespace codespace 48 Feb  8 15:38 segreto.txt
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ ls
+README.md  esercizi  sandbox  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd sandbox/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ echo '#!/bin/bash
+> echo ""Ciao, sono uno script!" > saluta.sh
+> end
+> exot
+> exit
+> ls
+> echo ""Ciao, sono uno script!" > saluta.sh
+> echo
+> ^C
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ echo '#!/bin/bash
+echo "Ciao, sono uno script!"' > saluta.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+saluta.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ./saluta.sh
+bash: ./saluta.sh: Permission denied
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ chmod u+x saluta.sh 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ./saluta.sh 
+Ciao, sono uno script!
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ pwd
+/workspaces/lezione-bash-01-FestinoHS/sandbox
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir -p azienda{amministrazione/{fatture,contratti},sviluppo/{frontend,backend},risorse_umane/{assunzioni,stipendi}}
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ tree azienda
+azienda  [error opening dir]
+
+0 directories, 0 files
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ mkdir -p azienda/{amministrazione/{fatture,contratti},sviluppo/{frontend,backend},risorse_umane/{assunzioni,
+stipendi}}
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ tree azienda
+azienda
+├── amministrazione
+│   ├── contratti
+│   └── fatture
+├── risorse_umane
+│   ├── assunzioni
+│   └── stipendi
+└── sviluppo
+    ├── backend
+    └── frontend
+
+10 directories, 0 files
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls
+azienda  aziendaamministrazione  aziendarisorse_umane  aziendasviluppo  saluta.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ cd ..
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ ls
+README.md  esercizi  sandbox  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS (main) $ cd esercizi/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ ls -l
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb  8 15:38 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  8 15:38 progetti
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi (main) $ cd permessi
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ls
+eseguibile.sh  non_eseguibile.sh  privato.txt  pubblico.txt  segreto.txt
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ ls -l
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  8 15:38 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  8 15:38 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  8 15:38 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  8 15:38 pubblico.txt
+-r--r--r-- 1 codespace codespace 48 Feb  8 15:38 segreto.txt
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/esercizi/permessi (main) $ cd ../../sandbox/
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls -a
+.  ..  azienda  aziendaamministrazione  aziendarisorse_umane  aziendasviluppo  saluta.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ #!/bin/bash
+echo "Hai scoperto il segreto!" > segreto.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls -l segreto.sh 
+-rw-rw-rw- 1 codespace codespace 25 Feb  8 16:39 segreto.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ chmod +x segreto.sh 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ chmod g-x,o-x segreto.sh 
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ls -l segreto.sh 
+-rwxrw-rw- 1 codespace codespace 25 Feb  8 16:39 segreto.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ./segreto.sh 
+./segreto.sh: line 1: Hai: command not found
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ echo 'echo "Hai scoperto il segreto!"' > segreto.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ chmod +x segreto.sh
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ ./segreto.sh
+Hai scoperto il segreto!
+@FestinoHS ➜ /workspaces/lezione-bash-01-FestinoHS/sandbox (main) $ 
+
